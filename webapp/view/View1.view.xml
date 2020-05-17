@@ -1,0 +1,30 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:semantic="sap.m.semantic" controllerName="ovly.controles.semantico.controller.View1" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<semantic:FullscreenPage title="Cadastro">
+					<semantic:content>
+						<Button text="Salvar" />
+					</semantic:content>
+					
+					<semantic:addAction>
+						<semantic:AddAction />
+					</semantic:addAction>
+					
+					<semantic:deleteAction>
+						<semantic:DeleteAction />
+					</semantic:deleteAction>
+					
+					<semantic:positiveAction>
+						<semantic:PositiveAction text="Aprovar" />
+					</semantic:positiveAction>
+					
+					<semantic:printAction>
+						<semantic:PrintAction />
+					</semantic:printAction>
+					
+				</semantic:FullscreenPage>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
